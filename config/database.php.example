@@ -1,0 +1,28 @@
+<?php
+/**
+ * Template Konfigurasi Database
+ * Salin file ini menjadi `database.php` dan sesuaikan variabel di bawah ini.
+ */
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
+$host = 'localhost';
+$username = 'root';
+$password = '';
+$database = 'infora_sn_db';
+$port = 3306; // Ubah ke port MySQL/MariaDB server Anda (misal: 3306 atau 3311)
+
+try {
+    $koneksi = new mysqli(
+        $host,
+        $username,
+        $password,
+        $database,
+        $port
+    );
+
+    $koneksi->set_charset("utf8mb4");
+
+} catch (mysqli_sql_exception $e) {
+    die("Koneksi database gagal: " . $e->getMessage());
+}

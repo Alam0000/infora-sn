@@ -1,0 +1,13 @@
+# Konfigurasi lokal sensitif
+config/database.php
+
+# File sistem & lingkungan
+.DS_Store
+Thumbs.db
+*.log
+
+# Folder upload publik (opsional: sembunyikan gambar/file yang diunggah pengguna)
+public/uploads/articles/*
+public/uploads/ads/*
+!public/uploads/articles/.gitkeep
+!public/uploads/ads/.gitkeep
