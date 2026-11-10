@@ -11,7 +11,7 @@
 
 | Halaman Utama Publik | Dashboard Admin |
 |---|---|
-| ![Home Page](doc/Screenshot 2026-11-10 161947.png)
+| ![Home Page](doc/Screenshot%202026-11-10%20161947.png)
 
 ---
 
