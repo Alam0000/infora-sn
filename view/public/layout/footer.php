@@ -408,7 +408,7 @@ $socials = [
 
                 <div class="footer-links">
 
-                    <a href="<?= $baseUrl ?>/">
+                    <a href="<?= $baseUrl ?>/view/public/about.php">
                         Tentang INFORA SN
                     </a>
 
