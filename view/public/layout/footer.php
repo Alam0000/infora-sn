@@ -481,3 +481,4 @@ $socials = [
     </div>
 
 </footer>
+<?php require_once __DIR__ . '/../shared/whatsapp.php'; ?>
